@@ -6,4 +6,4 @@ set xlabel "Protocols"
 set style data histogram
 set style fill solid
 set style histogram clustered
-plot 'throughputgraph.data' using 2:xtic(1) title "Source 1", '' using 3 title "Source 2"
+plot 'throughput1.data' using 2:xtic(1) title "Source 1", '' using 3 title "Source 2"
