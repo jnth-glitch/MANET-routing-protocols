@@ -142,19 +142,10 @@ $ns initial_node_pos $n15 20
 #===================================
 #        Generate movement          
 #===================================
-if 0 {
-$ns at 3 " $n0 setdest 261 580 150 " 
-$ns at 15 " $n0 setdest 442 426 100 " 
-$ns at 5 " $n2 setdest 450 579 150 " 
-$ns at 15 " $n7 setdest 777 300 100 " 
-$ns at 10 " $n10 setdest 640 300 150 " 
-$ns at 15 " $n14 setdest 630 164 80 " 
-}
 
 $ns at 5 " $n0 setdest 261 580 150 " 
 $ns at 15 " $n0 setdest 442 426 100 " 
 $ns at 5 "$n11 setdest 405 380 100"
-#$ns at 5 " $n2 setdest 470 527 100"
 $ns at 8 " $n2 setdest 450 579 150 " 
 $ns at 15 " $n7 setdest 777 300 100 " 
 $ns at 10 " $n10 setdest 640 300 150 " 
